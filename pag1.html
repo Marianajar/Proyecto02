@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>  &#128272 Código enigma  &#128272</title>
+    <link rel="stylesheet" href="css/codigo.css">
+</head>
+<body>
+    <div class="header">
+        <h1> &#128995 Código Enigma &#128995 </h1>
+    </div>
+
+    <div class="main">
+      <div class="section">
+      <div class="message" id="message">
+        <label for="message">Mensaje secreto</label>
+        <textarea id="msg" name="textarea" maxlength="300" placeholder="Escribe tu mensaje oculto aquí"></textarea>
+        <span id="counter">0/300</span>
+        <label for="clave">Coloca tu clave secreta</label>
+        <input id="clave" name="clase" placeholder="Ingresa tu clave secreta" type="number">
+
+        <div class="botones">
+          <button id="Cifrar" name="Cifrar" type="button">
+            <i class="cifrarelcodigo"></i> &#128272 Cifrar
+          </button>
+          <button id="Descifrar" name="Descifrar" type="button">
+            <i class="descifrarelcodigo"></i> &#x1f513 Descifrar
+          </button>
+        </div>
+      </div>
+      </div>
+
+        <div class="modalContainer containerClose">
+         <div id="messageResult" class="modal modalClose">
+            <p id="close"><i class="fas fa-times"></i></p>
+             <label for="messageResult" id="lblMsgResult">Su mensaje es</label>
+              <textarea id="msgResult" name="textarea" readonly></textarea>
+               <button id="copy" name="copy" type="button">
+                 <i class="fas fa-copy"></i> Copiar
+               </button>
+         </div>
+        </div> 
+    </div>
+
+    <footer class="pagina">
+        <p>	&copy; Todos los derechos reservados</p>
+    </footer>
+        
+</body>
+<script src="js/script.js"></script>
+<script src="js/cifrado.js"></script>
+</html>
