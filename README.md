@@ -1,0 +1,3 @@
+# Proyecto02
+##Definición del problema
+este problema es...
